@@ -1,0 +1,41 @@
+@import "../globals.css";
+
+.side-menu-container {
+    @apply border-[#3C436B] pt-[26px] border-r w-[288px] h-[1080px];
+}
+
+.side-menu-logo-container {
+    @apply flex items-center ml-[25px] w-[238px] h-[68px];
+}
+
+.logo-pic {
+    @apply mr-[12.75px] w-[70.12px];
+}
+
+.logo-title {
+    
+}
+
+.side-menu-items-container {
+    @apply flex flex-col justify-between gap-[22px] ml-[10px] pt-[92px];
+}
+
+.item-home-container {
+    @apply flex items-center w-[268px] h-[58px] cursor-pointer;
+}
+
+.item-home-container:hover {
+    @apply bg-[url('@/assets/img/bg-item.svg')];
+}
+
+.item-home-container.clicked {
+    @apply flex items-center w-[268px] h-[58px] cursor-pointer bg-[url('@/assets/img/bg-item.svg')];
+}
+
+.item-home-pic {
+    @apply mr-[20px] ml-[40px];
+}
+
+.item-home-title {
+    @apply font-semibold text-[20px] text-white;
+}

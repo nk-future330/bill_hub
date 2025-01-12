@@ -1,0 +1,20 @@
+@import "../globals.css";
+
+.stat-card-container {
+    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-global-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+}
+.stat-logo-container {
+
+}
+
+.state-title-container {
+    @apply mb-[30px] font-semibold text-[32px];
+}
+
+.stat-content-container {
+    @apply flex flex-col justify-between gap-[28px] font-semibold text-[24px];
+}
+
+.stat-item-container {
+    @apply flex justify-between;
+}

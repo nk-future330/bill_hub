@@ -1,0 +1,5 @@
+@import "../globals.css";
+
+.home-page-container {
+    @apply flex justify-between gap-[35px] pt-[80px] pr-[55px] pl-[55px];
+}
