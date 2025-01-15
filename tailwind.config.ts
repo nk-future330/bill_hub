@@ -12,6 +12,14 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'ssm': '842px',
+        'mdd': '1361px',
+        'lgg': '1820px'
+      },
+      fontFamily: {
+        oceanwide: ['Oceanwide', 'sans-serif']
+      }
     },
   },
   plugins: [],

@@ -19,7 +19,7 @@ const StatCard: React.FC<StatCardProps> = (props) => {
     const { stat } = props;
 
     return (
-        <div className="stat-card-container">
+        <div className={`stat-card-container ${stat.id}`}>
             <div className="stat-logo-container">
                 <Image
                     src={stat.imgURL}

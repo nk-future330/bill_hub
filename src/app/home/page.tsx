@@ -8,7 +8,7 @@ import StatCard from "@/components/home/StatCard";
 
 const stats: StatModel[] = [
     {
-        bgImgURL: GlobalStatsBG, 
+        id: "global", 
         imgURL: GlobalStatsPic,
         alt: 'Global Stats Pic',
         width: 93,
@@ -21,7 +21,7 @@ const stats: StatModel[] = [
         amount: '1,234' 
     },
     {
-        bgImgURL: GlobalStatsBG, 
+        id: "plusechain", 
         imgURL: PlusechaniStatsPic,
         alt: 'Plusechain Stats Pic',
         width: 145.97,
@@ -34,7 +34,7 @@ const stats: StatModel[] = [
         amount: '1,234' 
     },
     {
-        bgImgURL: GlobalStatsBG, 
+        id: "avalanche", 
         imgURL: GlobalLiquidityPic,
         alt: 'Avalanche Stats Pic',
         width: 143,

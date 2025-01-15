@@ -1,14 +1,24 @@
 @import "../globals.css";
 
-.stat-card-container {
+.stat-card-container.global {
     @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-global-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
 }
+
+.stat-card-container.plusechain {
+    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-plusechain-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+}
+
+.stat-card-container.avalanche {
+    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-avalanche-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+}
+
 .stat-logo-container {
 
 }
 
 .state-title-container {
-    @apply mb-[30px] font-semibold text-[32px];
+    @apply mb-[30px] font-oceanwide font-semibold text-[32px];
+    /* font-family: 'Oceanwide' */
 }
 
 .stat-content-container {

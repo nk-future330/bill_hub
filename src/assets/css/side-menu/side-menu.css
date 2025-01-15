@@ -1,7 +1,7 @@
 @import "../globals.css";
 
 .side-menu-container {
-    @apply border-[#3C436B] pt-[26px] border-r w-[288px] h-[1080px];
+    @apply border-[#3C436B] pt-[26px] border-r w-[288px] h-[100%];
 }
 
 .side-menu-logo-container {

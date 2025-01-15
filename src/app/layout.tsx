@@ -6,9 +6,11 @@ import "@/assets/css/side-menu/side-menu.css";
 import "@/assets/css/header/header.css";
 import "@/assets/css/stat-card/stat-card.css";
 import "@/assets/css/home/home.css";
+import '@rainbow-me/rainbowkit/styles.css';
 
 import Header from "@/components/global/Header";
 import SideMenu from "@/components/global/SideMenu";
+import { Providers } from "./provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,15 +36,18 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        style={{ display: "flex" }}
       >
-        <div>
-          <SideMenu />
-        </div>
-        <div>
-          <Header />
-          {children}
-        </div>
+        <Providers>
+          <div className="flex min-h-[100vh]">
+            <div>
+              <SideMenu />
+            </div>
+            <div className="w-full">
+              <Header />
+              {children}
+            </div>
+          </div>
+        </Providers>
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 interface StatModel {
-    bgImgURL: string,
+    id: string,
     imgURL: string,
     alt: string,
     width: number,

@@ -1,11 +1,11 @@
 @import "../globals.css";
 
 .header {
-    @apply flex items-center border-[#3C436B] border-b h-[106px];
+    @apply flex justify-end items-center border-[#3C436B] pr-[30px] border-b w-full h-[106px];
 }
 
 .button-container {
-    @apply top-[20px] right-[45px] fixed bg-[url("@/assets/img/bg-button.svg")] pt-[20px] pr-[30px] pb-[20px] pl-[30px] cursor-pointer
+    @apply top-[20px] right-[45px] fixed pt-[20px] pr-[30px] pb-[20px] pl-[30px] cursor-pointer
         w-[201px] h-[66px];
 }
 
