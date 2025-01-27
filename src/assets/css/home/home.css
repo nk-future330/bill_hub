@@ -1,6 +1,6 @@
 @import "../globals.css";
 
 .home-page-container {
-    @apply justify-between justify-items-center gap-9 grid ssm:grid-cols-1 mdd:grid-cols-2 lgg:grid-cols-3 pt-[80px] pr-[55px] pl-[55px] w-full text-center;
+    @apply justify-between justify-items-center gap-9 grid smm:grid-cols-1 mdd:grid-cols-2 lgg:grid-cols-3 pt-[80px] pr-[55px] pl-[55px] w-full text-center;
 }
 

@@ -31,11 +31,11 @@ body {
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Lota Grotesque';
-  src: url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Bold.otf') format('otf');
-    /* url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Regular.otf') format('otf'),
-    url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Regular-Italic.otf') format('otf'); */
+  src: url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Bold.otf') format('otf'),
+    url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Regular.otf') format('otf'),
+    url('@/assets/fonts/LotaGrotesque/Los-Andes-Lota-Grotesque-Regular-Regular-Italic.otf') format('otf');
   font-weight: 400;
   font-style: normal;
-}
+} */

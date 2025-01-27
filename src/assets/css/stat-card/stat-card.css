@@ -1,15 +1,15 @@
 @import "../globals.css";
 
 .stat-card-container.global {
-    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-global-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+    @apply bg-[url('@/assets/img/bg-global-stats.svg')] bg-cover pt-[43px] pr-[40px] pb-[30px] pl-[40px];
 }
 
 .stat-card-container.plusechain {
-    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-plusechain-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+    @apply w-[30%] h-[60%] bg-[url('@/assets/img/bg-plusechain-stats.svg')] bg-cover pt-[43px] pr-[40px] pb-[30px] pl-[40px];
 }
 
 .stat-card-container.avalanche {
-    @apply w-[484px] h-[707px] bg-[url('@/assets/img/bg-avalanche-stats.svg')] pt-[43px] pr-[40px] pb-[30px] pl-[40px];
+    @apply w-[30%] h-[60%] bg-[url('@/assets/img/bg-avalanche-stats.svg')] bg-cover pt-[43px] pr-[40px] pb-[30px] pl-[40px];
 }
 
 .stat-logo-container {
